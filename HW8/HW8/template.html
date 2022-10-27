@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Homework 8: Geoprocessing Analysis Map</h1>
+    <h2>Nicholas Sheets</h2>
+    <h3> In this map, I used geoprocessing analysis tools in order to answer the question "how many major waterways are 
+        exposed to oil or gas wells. In order to do this, I imported data for both major rivers in Pennsylvania and oil/gas wells
+        in Pennsylvania. Then I used the buffer tool to create a 300 foot buffer surrounding each well to account for potential
+        pollution and other harmful affects associated with natural gas wells. Then I used the "interect" feature to see how many 
+        rivers overlapped with these potential hazardous buffer zones created by the wells. In the map we see that there is a heavy 
+        concentration of intersections in Western Pennsylvania, which there has historically been a lot of mining and now fossil fuel
+        production. 
+    </h3>
+
+    <!-- a png image of your map will be embedded using the lines below  -->
+    <a href="Map/Geoprocessing_PA.png"> 
+        <img src="./Map/Geoprocessing_PA.png" alt="your map" width='1000px'>
+        </a>
+
+    <!-- here you will link your data sources -->
+    <h2>Data used for this project</h2>
+    <a href="./Data/oilwells.shp">Link to original data for oil wells</a>
+    <p></p>
+    <a href="./Data/rivers.shp">Link to original data for rivers</a>
+    <p></p>
+    <a href="./Data/Buffer.csv">Link to CSV for newly created "Buffer"</a>
+    <p></p>
+    <a href="./Data/Intersection.csv">Link to CSV for newly created "Intersection"</a>
+    <p></p>
+    <a href="./Data/PA.geojson">Link to geoJSON for PA</a>
+
+</body>
+</html>
